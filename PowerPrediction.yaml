@@ -1,0 +1,13 @@
+name: PowerPrediction
+channels:
+  - defaults
+dependencies:
+  - scikit-learn>0.23
+  - numpy>1.19
+  - pip>20
+  - python=3.8
+  - pip:
+    - mlflow
+    - matplotlib>3
+    - influxdb
+

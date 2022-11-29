@@ -1,0 +1,7 @@
+name: PowerPrediction
+
+conda_env: PowerPrediction.yaml
+
+entry_points:
+  main:
+    command: "python PowerPrediction.py"
